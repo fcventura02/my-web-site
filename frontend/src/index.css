@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@700&display=swap');
+
+:root{
+    --bg-primary: #F200AE;
+    --bg-secondary: #283035;
+    --text-color-primary: #f1f1f1;
+    --text-color-secondary: #283035;
+    --color-highlight-logo: #00C9D8;
+
+    --bg-button: #F1534D;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size: 2.8rem;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h2{
+    font-size: 2.4rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3, p{
+    font-size: 2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #4A00E0, #36075f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: 100% 50%;
+    animation: bg_animate 5s ease infinite alternate;
+} 
+
+@keyframes bg_animate{
+    0%{
+        background-position: 0% 0%;
+    }
+    50%{
+        background-position: 50% 75%;
+    }
+    100%{
+        background-position: 25% 100%;
+    }
+}
+
+#root{
+    width: 100%;
+    height: 100vh;
+}
+
+@media (max-width: 480px){
+    #root{
+        width: 100%;
+        height: 100%;
+    }
+}
