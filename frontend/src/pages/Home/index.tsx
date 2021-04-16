@@ -1,9 +1,10 @@
-import React from 'react';
 import './home.css';
 import dev_svg from '../../img/dev.svg';
 import projects_svg from '../../img/projetos.svg';
 import logo_svg from '../../img/logo.svg';
+import { Link } from 'react-router-dom';
 
+// eslint-disable-next-line 
 export default function Home() {
 	return (
 		<main>
@@ -18,12 +19,12 @@ export default function Home() {
 					<div className="card">
 						<img src={dev_svg} alt="Sobre o Dev"/>
 						<h3>Sobre o Dev</h3>
-						<a className="card_button" href="/#">SAIBA MAIS</a>
+						<Link className="card_button" to="/sobre">SAIBA MAIS</Link>
 					</div>
 					<div className="card">
 						<img src={projects_svg} alt=""/>
-						<h3>Sobre o Dev</h3>
-						<a className="card_button" href="/#">SAIBA MAIS</a>
+						<h3>Projetos</h3>
+						<Link className="card_button" to="/projects">SAIBA MAIS</Link>
 					</div>
 				</div>
 			</section>
