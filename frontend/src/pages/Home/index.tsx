@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 // eslint-disable-next-line 
 export default function Home() {
 	return (
-		<main>
+		<main className="containner-home">
 			<section>
 				<header className="contain">
 					<h1>Hello!</h1>

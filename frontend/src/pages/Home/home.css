@@ -1,4 +1,4 @@
-main{
+.containner-home{
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -7,25 +7,25 @@ main{
     color: var(--text-color-primary);
 }
 
-section{
+.containner-home section{
     max-width: 588px;
 }
 
-section .contain {
+.containner-home section .contain {
     margin-bottom: 77px;
 }
 
-section header h1 {
+.containner-home section header h1 {
     margin-bottom: 13px;
 }
 
-.cards{
+.containner-home .cards{
     margin-top: 13px;
     display: flex;
     justify-content: space-around;
 }
 
-.card{
+.containner-home .card{
     width: 213px;
     height: 250px;
     padding: 10px;
