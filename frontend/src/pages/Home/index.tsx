@@ -9,7 +9,7 @@ export default function Home() {
 	return (
 		<main>
 			<section>
-				<header>
+				<header className="contain">
 					<h1>Hello!</h1>
 					<p>Whats up, how are you?</p>
 				</header>

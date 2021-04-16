@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "name": "DS Delivery",
+        "description": "Projeto realizado na Semana DevSuperior. O projeto consiste em um sistema de registro e entrega de pedidos. Utilizamos Java com Spring Boot, e implantação no Heroku.",
+        "technologies": [
+            "Java Spring",
+            "React",
+            "Typescript"
+        ],
+        "link": "https://dsdelivery.tk/"
+    },
+    {
+        "id": 2,
+        "name": "DS Delivery",
+        "description": "Projeto realizado na Semana DevSuperior. O projeto consiste em um sistema de registro e entrega de pedidos. Utilizamos Java com Spring Boot, e implantação no Heroku.",
+        "technologies": [
+            "Java Spring",
+            "React",
+            "Typescript"
+        ],
+        "link": "https://dsdelivery.tk/"
+    }
+]
