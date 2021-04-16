@@ -1,0 +1,20 @@
+.containner-menu{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    max-width: 900px;
+    color: var(--text-color-primary);
+}
+
+.contain-menu{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.menu-item{
+    font-size: 2rem;
+    padding: 5px 10px;
+    color: var(--text-color-primary);
+}
