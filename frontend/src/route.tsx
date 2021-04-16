@@ -2,7 +2,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Info from './pages/Sobre';
 import Projects from './pages/Projects';
-import NotFound from './pages/Sobre';
+import NotFound from './pages/NotFound';
 
 export default function Router (){
     return(
