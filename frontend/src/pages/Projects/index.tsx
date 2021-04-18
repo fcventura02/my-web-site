@@ -12,7 +12,7 @@ export default function Projects() {
     var projecs = require('../../list.json');
     console.log(projecs)
     return (
-        <main className="containner">
+        <main className="containner-projects">
             <div className="contain">
                 <header className="header-project">
                     <h2>

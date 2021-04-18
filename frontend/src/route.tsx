@@ -16,17 +16,19 @@ export default function Router() {
                 )} />
                 <Route path="/sobre" component={() => (
                     <>
+                        <Menu menu="sobre"/>
                         <Info />
                     </>
                 )} />
-                <Route path="/projects" component={() => (
+                <Route path="/projetos" component={() => (
                     <>
-                        <Menu/>
+                        <Menu menu="projetos"/>
                         <Projects />
                     </>
                 )} />
                 <Route component={() => (
                     <>
+                        <Menu />
                         <NotFound />
                     </>
                 )} />
