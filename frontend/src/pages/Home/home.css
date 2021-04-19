@@ -86,6 +86,10 @@ aside{
             height: 100vh;
         }
 
+        html {
+            scroll-behavior: smooth;
+          }
+
         .containner-home .seta-next {
             position: absolute;
             display: inline-flex;
