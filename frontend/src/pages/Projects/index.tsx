@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import './projects.css';
+import avatar from '../../img/avatar-eu.svg';
 interface Project {
     id: number,
     name: String,
@@ -14,14 +15,17 @@ export default function Projects() {
     return (
         <main className="containner-projects">
             <div className="contain">
-                <header className="header-project">
-                    <h2>
-                        Olá, vamos passear um pouco pelos meus projetos.
-                </h2>
-                    <p>
-                        Caso se interesse por algum projeto clique em visitar para ir até a página.
-                </p>
-                </header>
+                <div className="contain-header">
+                    <img src={avatar} alt="avatar eu" />
+                    <header className="header-project">
+                        <h2>
+                            Olá, vamos passear um pouco pelos meus projetos.
+                        </h2>
+                        <p>
+                            Caso se interesse por algum projeto clique em visitar para ir até a página.
+                        </p>
+                    </header>
+                </div>
                 <section className="cards_projects">
                     {projecs.map((project: Project) => (
                         <div key={project.id} className="card_project">

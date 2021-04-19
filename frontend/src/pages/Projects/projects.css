@@ -14,6 +14,10 @@
     max-width: 900px;
 }
 
+.contain-header{
+    display: flex;
+}
+
 .header-project{
     padding: 10px;
     margin-top: 5px;
@@ -94,6 +98,17 @@
         height: 100%;   
     }
     @media (max-width: 425px){
+        .contain-header img{
+            width: 35%;
+        }
+
+        .contain-header .header-project h2{
+            font-size: 1.8rem;
+        }
+
+        .contain-header .header-project p{
+            font-size: 1.5rem;
+        }
 
         .card_project{
             flex-direction: column;
@@ -103,6 +118,18 @@
             width: 100%;
             height: 50%;
             border-radius: 18px 18px 0 0;
+        }
+
+        .card_project-content h2 , .card_project-content h3{
+            font-size: 1.8rem;
+            line-height: 2.8rem;
+            letter-spacing: 0.05em;
+        }
+
+        .card_project-content p{
+            font-size: 1.5rem;
+            line-height: 1.9rem;
+            letter-spacing: 0.05em;
         }
     }
 }
