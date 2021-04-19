@@ -24,7 +24,7 @@ export default function Home() {
 					<div className="card">
 						<img src={projects_svg} alt=""/>
 						<h3>Projetos</h3>
-						<Link className="card_button" to="/projects">SAIBA MAIS</Link>
+						<Link className="card_button" to="/projetos">SAIBA MAIS</Link>
 					</div>
 				</div>
 			</section>

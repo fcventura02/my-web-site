@@ -1,5 +1,5 @@
 import './notfound.css';
-export default function Info(){
+export default function NotFound(){
     return(
         <main className="not_found">
             <h1>404</h1>

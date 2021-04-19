@@ -9,11 +9,7 @@ export default function Router() {
     return (
         <BrowserRouter>
             <Switch>
-                <Route path="/" exact component={() => (
-                    <>
-                        <Home />
-                    </>
-                )} />
+                <Route path="/" exact component={Home} />
                 <Route path="/sobre" component={() => (
                     <>
                         <Menu menu="sobre"/>

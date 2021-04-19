@@ -1,6 +1,4 @@
-import React from 'react';
-
-export default function NotFound(){
+export default function Info(){
     return(
         <main>
             <h1>Sobre</h1>
