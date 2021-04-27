@@ -33,21 +33,21 @@
             }
             .isselect {
                 color: var(--bg-primary);
-                position: relative;
-
-                &::after,
-                :hover::after {
-                    position: absolute;
-                    display: inline-flex;
-                    left: 0;
-                    bottom: -31px;
-                    content: "";
-                    border-bottom: 0.3rem solid var(--bg-primary);
-                    border-radius: 50px;
-                    width: 100%;
-                    transform: translateY(-1rem);
-                }
             }
+
+
+            .isselect::after,
+            :hover::after {
+                position: absolute;
+                display: inline-flex;
+                left: 0;
+                bottom: -26px;
+                content: "";
+                border-bottom: 0.3rem solid var(--bg-primary);
+                width: 100%;
+                transform: translateY(-1rem);
+            }
+            
         }
     }
 }
